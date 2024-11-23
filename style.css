@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #e0f7fa; /* Light cyan background */
+    background-color: #f0f4c3; /* Light green background */
 }
 
 .container {
@@ -24,7 +24,7 @@ body {
 .fact-display {
     margin: 20px 0;
     font-size: 1.4em;
-    color: #00796b; /* Teal color for text */
+    color: #388e3c; /* Dark green color for text */
     transition: color 0.3s ease-in-out;
 }
 
@@ -34,17 +34,4 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 8px;
-    background-color: #ff5722; /* Deep orange background */
-    color: white;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-button:hover {
-    background-color: #e64a19; /* Darker orange on hover */
-    transform: translateY(-3px);
-}
-
-button:active {
-    background-color: #d84315; /* Even darker orange on click */
-    transform: translateY(0);
-}
+    background-color: #8bc
