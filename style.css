@@ -1,36 +1,50 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f8ff;
+    background-color: #e0f7fa; /* Light cyan background */
 }
 
 .container {
     text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.05);
 }
 
 .fact-display {
     margin: 20px 0;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    color: #00796b; /* Teal color for text */
+    transition: color 0.3s ease-in-out;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 1em;
+    padding: 12px 25px;
+    font-size: 1.1em;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
-    background-color: #007bff;
+    border-radius: 8px;
+    background-color: #ff5722; /* Deep orange background */
     color: white;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #e64a19; /* Darker orange on hover */
+    transform: translateY(-3px);
+}
+
+button:active {
+    background-color: #d84315; /* Even darker orange on click */
+    transform: translateY(0);
 }
